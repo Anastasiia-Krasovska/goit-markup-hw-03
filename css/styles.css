@@ -1,0 +1,189 @@
+:root {
+  --primary-text-color: rgb(117, 117, 117);
+  --accent-text-color: rgb(32, 148, 243);
+  --title-text-color: rgb(33, 33, 33);
+  --hero-text-color: rgb(255, 255, 255);
+  --background-color: rgb(48, 49, 59);
+  --additional-color: rgba(255, 255, 255, 0.6);
+  --button-color: rgb(245, 244, 250);
+}
+body {
+  background-color: var(--hero-text-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo a:hover,
+.logo a:focus {
+  color: var(--title-text-color);
+}
+.logo .colortext {
+  color: var(--accent-text-color);
+}
+.site-nav a {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link-current {
+  color: var(--accent-text-color);
+}
+.adress-nav a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav :hover,
+.site-nav:focus {
+  color: var(--accent-text-color);
+}
+.adress-nav :hover,
+.adress-nav :focus {
+  color: var(--accent-text-color);
+}
+.hero {
+  background-color: var(--background-color);
+}
+.hero-title {
+  color: var(--hero-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  cursor: pointer;
+  color: var(--hero-text-color);
+  background-color: var(--accent-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.features-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features-list .title-explanation {
+  color: var(--primary-text-color);
+  line-height: 1.71;
+}
+.people-list .title {
+  color: var(--title-text-color);
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.people-list .title-explanation {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.adress {
+  background-color: var(--background-color);
+}
+.adress .logo a {
+  text-decoration: none;
+}
+.adress .logo {
+  color: var(--hero-text-color);
+}
+.adress-title a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  line-height: 1.71;
+}
+.office-title a {
+  color: var(--hero-text-color);
+}
+.adress-title :hover,
+.adress-title:focus {
+  color: var(--accent-text-color);
+}
+.portfolio .portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio .portfolio-title-explanation {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
+.nav-list {
+  list-style: none;
+  text-align: center;
+}
+.nav-list .other-button:hover,
+.nav-list .other-button:focus {
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
+}
+.nav-list .other-button {
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--button-color);
+  color: var(--title-text-color);
+}
+.current-button {
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--button-color);
+  color: var(--title-text-color);
+}
+.current-button:hover,
+.current-button:focus {
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
+}

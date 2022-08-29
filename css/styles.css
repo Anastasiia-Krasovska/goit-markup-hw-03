@@ -198,14 +198,19 @@ body {
 .work-list .item + .item {
   margin-left: 30px;
 }
-.section-people-list .container {
+.section-people-list {
   background-color: var(--button-color);
+}
+.section-people-list .container {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 94px;
+}
+.section-people-list .section-title {
+  padding-top: 94px;
 }
 .section-people-list h2 {
   padding-bottom: 50px;
@@ -264,7 +269,8 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
+  margin-top: 94px;
 }
 .adress-title a {
   color: var(--primary-text-color);
@@ -385,9 +391,16 @@ body {
   padding-left: 0;
   padding-right: 0;
   flex-wrap: wrap;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.portfolio .portfolio-title-explanation {
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 .portfolio-title {
-  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-bottom: 0;
 }
 .portfolio .item {

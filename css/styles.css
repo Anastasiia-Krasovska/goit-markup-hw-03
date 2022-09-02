@@ -54,6 +54,9 @@ body {
 .site-nav .link-current {
   color: var(--accent-text-color);
 }
+.page-header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
 .page-header .container {
   width: 1200px;
   padding-left: 15px;
@@ -210,6 +213,7 @@ body {
 .section-people-list {
   background-color: var(--button-color);
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .section-people-list .container {
   max-width: 1200px;
@@ -219,7 +223,6 @@ body {
   margin-right: auto;
 }
 .section-people-list .section-title {
-  margin-top: 94px;
 }
 .section-people-list h2 {
   margin-bottom: 50px;
@@ -255,7 +258,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   margin-top: 0;
 }
 .adress {
@@ -275,6 +278,7 @@ body {
 .adress .logo {
   color: var(--hero-text-color);
   margin-bottom: 20px;
+  display: block;
 }
 .adress-title a {
   color: var(--primary-text-color);
@@ -308,6 +312,8 @@ body {
 }
 .nav-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .nav-list .other-button:hover,
 .nav-list .other-button:focus {
@@ -323,8 +329,8 @@ body {
 }
 .nav-buttons .nav-list {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 34px;
   align-items: center;
   padding-left: 0;
   justify-content: center;
@@ -371,7 +377,7 @@ body {
   color: var(--hero-text-color);
 }
 .nav-portfolio {
-  margin-bottom: 64px;
+  padding-bottom: 94px;
 }
 .nav-portfolio .container {
   width: 1200px;
@@ -379,15 +385,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-.portfolio h2 {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 0;
 }
 .portfolio {
   display: block;
@@ -407,20 +404,25 @@ body {
   flex-wrap: wrap;
   margin-bottom: 0;
   margin-top: 0;
+  gap: 30px;
 }
 .portfolio .portfolio-title-explanation {
   margin-top: 4px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 .portfolio-title {
   padding-top: 0;
   padding-bottom: 0;
   margin-bottom: 0;
 }
+.portfolio img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .portfolio .item {
   width: 370px;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  border: 1px solid rgba(238, 238, 238, 1);
 }
 .people-item {
   width: 270px;
@@ -429,4 +431,7 @@ body {
 }
 .photo-activity {
   width: 370px;
+}
+h1 h2 h3 h4 h5 h6 p {
+  margin: 0;
 }

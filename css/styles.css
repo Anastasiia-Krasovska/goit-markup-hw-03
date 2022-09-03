@@ -6,6 +6,7 @@
   --background-color: rgb(48, 49, 59);
   --additional-color: rgba(255, 255, 255, 0.6);
   --button-color: rgb(245, 244, 250);
+  --border-color: rgba(236, 236, 236, 1);
 }
 body {
   background-color: var(--hero-text-color);
@@ -55,7 +56,7 @@ body {
   color: var(--accent-text-color);
 }
 .page-header {
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
+  border-bottom: 1px solid var(--border-color);
 }
 .page-header .container {
   width: 1200px;

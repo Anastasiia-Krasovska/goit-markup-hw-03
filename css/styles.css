@@ -211,7 +211,6 @@ body {
   height: auto;
 }
 .section-people-list {
-  background-color: var(--button-color);
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -221,8 +220,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-.section-people-list .section-title {
 }
 .section-people-list h2 {
   margin-bottom: 50px;
@@ -329,8 +326,7 @@ body {
 }
 .nav-buttons .nav-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 34px;
+  margin-bottom: 50px;
   align-items: center;
   padding-left: 0;
   justify-content: center;
@@ -376,9 +372,6 @@ body {
   background-color: var(--accent-text-color);
   color: var(--hero-text-color);
 }
-.nav-portfolio {
-  padding-bottom: 94px;
-}
 .nav-portfolio .container {
   width: 1200px;
   padding-left: 15px;
@@ -422,7 +415,6 @@ body {
 }
 .portfolio .item {
   width: 370px;
-  border: 1px solid rgba(238, 238, 238, 1);
 }
 .people-item {
   width: 270px;
@@ -432,6 +424,25 @@ body {
 .photo-activity {
   width: 370px;
 }
-h1 h2 h3 h4 h5 h6 p {
+h1 {
   margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+.item-div {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.main-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
